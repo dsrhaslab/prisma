@@ -1,0 +1,13 @@
+# Target labels
+ tbb
+# Source files and their labels
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb-complete.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-install.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-mkdir.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-download.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-update.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-patch.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-configure.rule
+/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-build.rule

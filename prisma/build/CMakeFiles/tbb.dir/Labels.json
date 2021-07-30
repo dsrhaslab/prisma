@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/CMakeFiles/tbb-complete.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-install.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-mkdir.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-download.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-update.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-patch.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-configure.rule"
+		},
+		{
+			"file" : "/home/claudia/MIEI/HASLab/PRISMA-paper/prisma/prisma/build/tbb-prefix/src/tbb-stamp/tbb-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"tbb"
+		],
+		"name" : "tbb"
+	}
+}

@@ -1,0 +1,52 @@
+[General]
+# set buffer size
+# default: autotune
+# if set to "autotune" it will be automatically tuned
+buffer_size=
+
+# set number of threads
+# default: autotune
+# if set to "autotune" it will be automatically tuned
+n_threads=
+
+# set read block size in bytes
+# default: 262144
+read_block_size=
+
+# set profiling
+# default: false
+profiling=
+
+# set debug
+# default: false
+debug=
+
+
+[Autotuning]
+# set maximum buffer size
+# default: 60
+max_buffer_size=
+
+# set maximum number of threads
+# default: number of concurrent threads supported by the CPU
+max_n_threads=
+
+# set initial buffer size
+# default: 10
+init_buffer_size=
+
+# set initial number of threads
+# default: 1
+init_n_threads=
+
+# set buffer size increasing step
+# default: 10
+buffer_size_step=
+
+# set number of threads increasing step
+# default: 1
+n_threads_step=
+
+# set autotuning interval in milliseconds
+# default: 100
+autotune_interval=
