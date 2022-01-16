@@ -25,7 +25,7 @@ Ricardo Macedo, Cláudia Correia, Marco Dantas, Cláudia Brito, Weijia Xu, Yusuk
 ## Getting started with Prisma
 This tutorial will guide you through the installation and configuration of Prisma.
 
-####**Install dependencies**
+#### **Install dependencies**
 
 Prisma was built, compiled, and tested with `g++-9.3.0` and `cmake-3.16`.
 It has dependencies with [Boost C++ libraries](https://www.boost.org/), so please install them 
@@ -43,7 +43,7 @@ $ sudo ./b2 install
 $ grep "#define BOOST_LIB_VERSION" /opt/include/boost/version.hpp
 ```
 
-####**Install Prisma**
+#### **Install Prisma**
 To build Prisma, run the following commands:
 
 ```shell
@@ -55,7 +55,7 @@ $ make
 
 After running the commands, the shared library `libprisma.so` will appear in the `build` directory.
 
-####Create the filenames list
+#### **Create the filenames list**
 
 Before executing Prisma, a `filenames_list` must be created, so that Prisma knows the files that 
 must be read in advance, and the order in which they must be cached.
@@ -79,7 +79,7 @@ This function creates the `filenames_list` with the filenames present in `files_
 that `n_epochs` training epochs will be performed, and returns a list with the content of 
 `filenames_list`.
 
-#### Read data
+#### **Read data**
 
 After including `libprisma.so` in your C++ project and creating the `filenames_list`, you simply 
 need to instantiate Prisma and evoke its `read` method to read the dataset files. 
@@ -112,7 +112,7 @@ int main() {
 For this example to run as expected, the file `/home_dir/prisma/filenames_list` previously created, 
 must contain a single line with `/path/to/file.txt`.
 
-####**Integrating Prisma with Deep Learning frameworks**
+#### **Integrating Prisma with Deep Learning frameworks**
 
 **TensorFlow.** 
 Please refer to [`prisma/tensorflow_integration`](https://github.com/dsrhaslab/prisma/tree/main/tensorflow_integration)
@@ -122,11 +122,11 @@ for details on how to integrate Prisma with TensorFlow.
 Please refer to [`prisma/pytorch_integration`](https://github.com/dsrhaslab/prisma/blob/main/pytorch_integration)
 for details on how to integrate Prisma with PyTorch.
 
-## Configurations
+#### **Configurations**
 The number of I/O threads and buffer size used by Prisma can be configured using the `configs` file. 
 This file must be stored in `/home_dir/prisma` when Prisma is executed.
 
-### Acknowledgments
+## Acknowledgments
 >We thank the [National Institute of Advanced Industrial Science and Technologies (AIST)](https://www.aist.go.jp/index_en.html)
 for providing access to computational resources of AI Bridging Cloud Infrastructure (ABCI).
 >This work was financed by National Funds through the Portuguese Foundation for Science and 
