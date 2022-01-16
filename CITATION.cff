@@ -1,0 +1,38 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: >-
+  The Case for Storage Optimization Decoupling in
+  Deep Learning Frameworks
+message: Please cite the following paper if you use Prisma.
+type: software
+authors:
+  - given-names: Ricardo
+    family-names: Macedo
+    affiliation: INESC TEC & University of Minho
+  - given-names: Cláudia
+    family-names: Correia
+    affiliation: INESC TEC & University of Minho
+  - given-names: Marco
+    family-names: Dantas
+    affiliation: INESC TEC & University of Minho
+  - given-names: Cláudia
+    family-names: Brito
+    affiliation: INESC TEC & University of Minho
+  - given-names: Weijia
+    family-names: Xu
+    affiliation: TACC & The University of Texas at Austin
+  - given-names: Yusuke
+    family-names: Tanimura
+    affiliation: >-
+      National Institute of Advanced Industrial
+      Science and Technology
+  - given-names: Jason
+    family-names: Haga
+    affiliation: >-
+      National Institute of Advanced Industrial
+      Science and Technology
+  - given-names: João
+    family-names: Paulo
+    affiliation: 'INESC TEC & University of Minho '
